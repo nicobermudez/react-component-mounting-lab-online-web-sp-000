@@ -10,12 +10,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(clockTick, 1000)
     this.handleAddTimer
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval)
   }
 
 
